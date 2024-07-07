@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="discription" content="This is a simple web page that is made for fun">
+        <meta name="author" content="lohzhenhao, Loh Zhen Hao">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div id="header"><h1 id="headericon">HOME</h1><button onclick="home()" id="home" class="MENU">HOME</button><button onclick="about()" id="about" class="MENU">About me</button><button onclick="portfolio()" id="portfolio" class="MENU">Portfolio</button><button onclick="project()" id="projects" class="MENU">Projects</button></div>
+    <!-- menu on the side
+        <div id="menu">
+            <h1 id="title">MENU</h1>
+            <button onclick="home()" id="home" class="MENU">HOME</button><br>
+            <button onclick="about()" id="about" class="MENU">About me</button><br>
+            <button onclick="portfolio()" id="portfolio" class="MENU">Portfolio</button><br>
+            <button onclick="project()" id="projects" class="MENU">Projects</button><br>
+        </div>
+        -->
+        <div class="CURRENTPAGE">
+            <div id="homepage" class="TEXT">
+                <h2>Welcome!</h2>
+                <p>I am Loh Zhen Hao, current 16 years old. I am aspiring to be a software engineer, cybersecurity engineer or a penetration tester.</p>
+                <p>This website is made with HTML and some basic javascript. The construction of this website will be in projects soon. </p>
+                <p>Will be updating soon!!</p>
+
+            </div>
+
+            <div id="aboutpage" class="TEXT">
+                <h2>About me</h2>
+                <p>Some of the languages that I know are python, block coding, html(basic), javascrip(basic). Currently I am trying to learn javascript to improve this website.</p>
+                <p>Some of the CTFs that I have participated are:<br>
+                    1.Hack@AC----2nd team<br>
+                    2.Central CTF--10th individual<br>
+                </p>
+                <p>I was  in robotics club and really enjoyed the hands-on activities we had such as building air powered cars which we had to compete to see who had the best design to travel the furtherest. However during my 4 years there covid struck for more than half of it making me unable to attend manu  competeions. This is why most of my achievents came during the last 2 years. The most notable for me is Hack@AC as it was my first introduction into CTF and the world of cybersecurity.</p>
+            </div>
+
+            <div id="portfpage" class="TEXT">
+                <h2>Portfolio</h2>
+                <a href="https://drive.google.com/drive/folders/1uIS09p7CF_C6eva1UMuyGLUKyqzfKCz0?usp=sharing" target="_blank"><p>https://drive.google.com/drive/folders/1uIS09p7CF_C6eva1UMuyGLUKyqzfKCz0?usp=sharing</p></a>
+                <p>Only for authorised access!</p>
+                <!--
+                <embed src="" width=100% height=500px type="application/pdf">
+                <button href="" download><p>Download!</p></button>
+                -->
+            </div>
+
+                <div id="projectpage" class="TEXT">
+                    <h2>Projects</h2>
+                    <p>Still writing!!</p>
+                    <p>Updates soon</p>
+                </div>
+        </div>
+
+        <!--script to hide all pages except the home page-->
+        <script>
+            function onstart() {
+                    var A = document.getElementById("homepage");
+                    var B = document.getElementById("aboutpage");
+                    var C = document.getElementById("portfpage");
+                    var D = document.getElementById("projectpage");
+                        A.style.display = "block";
+                        B.style.display = "none";
+                        C.style.display = "none";
+                        D.style.display = "none";
+            }
+            window.onload = onstart();
+        </script>
+
+        <!--script to change page when button presses-->
+        <script>
+            function home() {
+                document.getElementById("headericon").innerHTML = "HOME";
+                var A = document.getElementById("homepage");
+                var B = document.getElementById("aboutpage");
+                var C = document.getElementById("portfpage");
+                var D = document.getElementById("projectpage");
+                    A.style.display = "block";
+                    B.style.display = "none";
+                    C.style.display = "none";
+                    D.style.display = "none";
+            } 
+            function about() {
+                document.getElementById("headericon").innerHTML = "ABOUT ME";
+                var A = document.getElementById("homepage");
+                var B = document.getElementById("aboutpage");
+                var C = document.getElementById("portfpage");
+                var D = document.getElementById("projectpage");
+                    A.style.display = "none";
+                    B.style.display = "block";
+                    C.style.display = "none";
+                    D.style.display = "none";
+            } 
+            function portfolio() {
+                document.getElementById("headericon").innerHTML = "PORTFOLIO";
+                var A = document.getElementById("homepage");
+                var B = document.getElementById("aboutpage");
+                var C = document.getElementById("portfpage");
+                var D = document.getElementById("projectpage");
+                    A.style.display = "none";
+                    B.style.display = "none";
+                    C.style.display = "block";
+                    D.style.display = "none";
+            } 
+            function project() {
+                document.getElementById("headericon").innerHTML = "PROJECTS";
+                var A = document.getElementById("homepage");
+                var B = document.getElementById("aboutpage");
+                var C = document.getElementById("portfpage");
+                var D = document.getElementById("projectpage");
+                    A.style.display = "none";
+                    B.style.display = "none";
+                    C.style.display = "none";
+                    D.style.display = "block";
+            } 
+        </script>
+
+        <!--github link-->
+        <a id="git" href="https://github.com/lohzhenhao" target="_blank">
+            <img src="/images/github-mark-white.png" width="50px">
+        </a>
+
+        <div id="footer"></div>
+    </body>
+
+</html>
+
