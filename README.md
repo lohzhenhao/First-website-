@@ -1,0 +1,3 @@
+This is some code of my first website.
+I used some very basic html and javascript for it.
+the website may be broken on phone screens as so far my scaling is not done well...
