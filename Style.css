@@ -4,15 +4,15 @@ Body{
     font-weight: 400;
     font-size: auto;
     font-style: normal;
-    color: white;
-    background-color: #001B79;
+    color: black;
+    background-color: #A2D2FF;
     width: auto;
 }
 
 #header{
     Height: 4%;
     Width: 100%;
-    background-color: #D2D2D2;
+    background-color: #FEF9EF;
     position: fixed;
     top: 0;
 }
@@ -95,7 +95,7 @@ a{
 #footer{
     Height: 3%;
     Width: 100%;
-    background-color: #D2D2D2;
+    background-color: #FEF9EF;
     position: fixed;
     bottom: 0;
 }
