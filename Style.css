@@ -59,7 +59,8 @@ Body{
 }
 
 button:hover{
-    background-color: lightblue;
+    background-color: #FEE440;
+    font-colour: #FF865E;
 }
 
 button{
