@@ -55,11 +55,11 @@ Body{
     min-height: calc(100vh - 100px);
     flex: 1;
     border-color: white;
-    Width: 50%;
-    Height: 90%;
+    Width: 60%;
+    Height: 93%;
     position: absolute;
     top: 10%;
-    left: 25%;
+    left: 20%;
     overflow: auto;
 }
 
