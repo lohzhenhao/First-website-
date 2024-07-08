@@ -10,12 +10,12 @@ Body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
 
 #header{
     padding: 0;
     margin: 0;
-    Height: 4%;
+    Height: 5%;
     Width: 100%;
     background-color: #3AA6B9;
     position: sticky;
@@ -33,6 +33,7 @@ Body{
     font-size: 20px;
     position: absolute;
 }
+
 /*
 #menu{
     Border: 2px solid;
@@ -51,6 +52,7 @@ Body{
     padding-left: 10px;
 }
 */
+
 .CURRENTPAGE{
     border-top: 3px solid;
     border-left: 3px solid;
@@ -102,6 +104,15 @@ a{
     height: 200px;
     min-height: calc(200px - 75px);
     flex: 1;
+}
+
+.MISC{
+    width: 300px;
+    min-width: calc(300px - 50px);
+    flex: 1;
+    padding: 10px;
+    position: absolute;
+    margin-left: 60%;
 }
 
 #gitbox{
