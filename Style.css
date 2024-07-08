@@ -87,13 +87,13 @@ a{
 #git{
     Height: 20px;
     Width: 20px;
-    position: fixed;
-    bottom: 7%;
-    right: 2.2%;
+    position: relative;
+    bottom: auto;
+    right: auto;
     }
 
 #footer{
-    Height: 3%;
+    Height: 4%;
     Width: 100%;
     background-color: #FEF9EF;
     position: fixed;
