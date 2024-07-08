@@ -83,15 +83,14 @@ a{
 
 .TEXT{
     padding: 3%;
+    background-color: Black;
 }
 
 .git{
     Height: 20px;
     Width: 20px;
     position: relative;
-    background-color: Black;
     margin-top: 150px;
-    padding: 10px;
     }
 
 #footer{
