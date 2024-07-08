@@ -45,6 +45,7 @@ Body{
     border-top: 2px solid;
     border-left: 2px solid;
     border-right: 2px solid;
+    min-height: calc(100vh-100px);
     border-color: white;
     Width: 50%;
     Height: 90%;
