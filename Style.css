@@ -7,21 +7,28 @@ Body{
     color: Black;
     background-color: #A2D2FF;
     width: auto;
-}
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
 #header{
+    padding: 0;
+    margin: 0;
     Height: 4%;
     Width: 100%;
     background-color: #FEF9EF;
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
 #headericon{
     margin: 0%;
     padding: 0%;
+    padding-left: 1%;
     color: black;
     font-size: 20px;
+    position: absolute;
 }
 /*
 #menu{
@@ -46,12 +53,14 @@ Body{
     border-left: 2px solid;
     border-right: 2px solid;
     min-height: calc(100vh - 100px);
+    flex: 1;
     border-color: white;
     Width: 50%;
     Height: 90%;
     position: absolute;
     top: 10%;
     left: 25%;
+    overflow: auto;
 }
 
 .MENU{
@@ -61,7 +70,7 @@ Body{
 
 button:hover{
     background-color: #FEE440;
-    font-colour: #FF865E;
+    color: #FF865E;
 }
 
 button{
@@ -87,16 +96,20 @@ a{
 }
 
 #gitbox{
-    Height: 50px;
-    Width: 50px;
-    position: relative;
+    Height: 40px;
+    Width: 40px;
+    position: sticky;
+    top: 50px;
     margin-top: 150px;
     padding: 10px;
-    background-colour: Black;
-    }
-
+    background-color: Black;
+}
+  
 #git{
-    Height: 20px;
+    Height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: auto;
 }
 
 #footer{
