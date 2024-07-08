@@ -5,7 +5,7 @@ Body{
     font-size: auto;
     font-style: normal;
     color: Black;
-    background-color: #A2D2FF;
+    background-color: #C1ECE4;
     width: auto;
     min-height: 100vh;
     display: flex;
@@ -17,16 +17,19 @@ Body{
     margin: 0;
     Height: 4%;
     Width: 100%;
-    background-color: #FEF9EF;
+    background-color: #3AA6B9;
     position: sticky;
     top: 0;
+    border: 2px solid;
+    border-color: #FFD0D0;
+    color: whitesmoke;
 }
 
 #headericon{
     margin: 0%;
     padding: 0%;
     padding-left: 1%;
-    color: black;
+    color: #FFD0D0;
     font-size: 20px;
     position: absolute;
 }
@@ -49,12 +52,12 @@ Body{
 }
 */
 .CURRENTPAGE{
-    border-top: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
     min-height: calc(100vh - 100px);
     flex: 1;
-    border-color: white;
+    border-color: #FF9EAA;
     Width: 60%;
     Height: 93%;
     position: absolute;
@@ -69,8 +72,8 @@ Body{
 }
 
 button:hover{
-    background-color: #FEE440;
-    color: #FF865E;
+    background-color: #FFD0D0;
+    color: #FF9EAA;
 }
 
 button{
@@ -95,6 +98,12 @@ a{
     padding: 3%;
 }
 
+.MEDAL{
+    height: 200px;
+    min-height: calc(200px - 75px);
+    flex: 1;
+}
+
 #gitbox{
     Height: 40px;
     Width: 40px;
@@ -116,7 +125,11 @@ a{
 #footer{
     Height: 4%;
     Width: 100%;
-    background-color: #FEF9EF;
+    background-color: #3AA6B9;
     position: fixed;
     bottom: 0;
+    left: 0;
+    border: 2px solid;
+    border-left: none;
+    border-color: #FFD0D0;
 }
