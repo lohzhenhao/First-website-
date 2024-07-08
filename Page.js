@@ -88,18 +88,6 @@ function passion() {
             E.style.display = "none";
             F.style.display = "block";
 } 
-function onstart() {
-    var A = document.getElementById("homepage");
-    var B = document.getElementById("aboutpage");
-    var C = document.getElementById("portfpage");
-    var D = document.getElementById("projectpage");
-    var E = document.getElementById("achievepage");
-    var F = document.getElementById("passionpage")
-        A.style.display = "block";
-        B.style.display = "none";
-        C.style.display = "none";
-        D.style.display = "none";
-        E.style.display = "none";
-        F.style.display = "none";
-}
-window.onload = onstart();
+window.onload = home();
+
+document.body.scrollTop = document.documentElement.scroll Top = 0;
