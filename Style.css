@@ -115,6 +115,13 @@ a{
     margin-left: 60%;
 }
 
+#pfp{
+    margin-left: 30%;
+    width: 40%;
+    background: none;
+    background-color: #C1ECE4;
+}
+
 #gitbox{
     Height: 40px;
     Width: 40px;
