@@ -89,8 +89,7 @@ a{
     Height: 20px;
     Width: 20px;
     position: relative;
-    bottom: auto;
-    right: auto;
+    top: 50px;
     }
 
 #footer{
