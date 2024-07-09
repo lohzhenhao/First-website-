@@ -94,8 +94,7 @@ a{
     min-width: calc(300px - 50px);
     flex: 1;
     padding: 10px;
-    position: absolute;
-    margin-left: 60%;
+    position: relative;
 }
 
 #pfp{
