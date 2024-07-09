@@ -38,11 +38,10 @@ Body{
     border-top: 3px solid;
     border-left: 3px solid;
     border-right: 3px solid;
-    min-height: calc(100vh - 100px);
     flex: 1;
     border-color: #FF9EAA;
-    Width: 60%;
-    Height: 93%;
+    width: 60%;
+    height: 93%;
     position: absolute;
     top: 10%;
     left: 20%;
@@ -79,22 +78,21 @@ a{
 
 .TEXT{
     padding: 3%;
+    flex-wrap: wrap;
 }
 
 .MEDAL{
     height: 200px;
-    min-height: calc(200px - 75px);
-    flex: 1;
 }
 
 .MISC{
-    width: 300px;
-    min-width: calc(300px - 50px);
-    flex: 1;
     padding: 10px;
     position: relative;
-    display: flex;  
-    flex-wrap: wrap;
+    float: right;
+    max-width: 32%;
+    min-width: 20%;
+    height: auto;
+    margin-top: 0;
 }
 
 #pfp{
@@ -112,12 +110,12 @@ table{
 #gitbox{
     Height: 40px;
     Width: 40px;
-    position: sticky;
-    top: 50px;
-    margin-top: 150px;
+    position: fixed;
+    bottom: 5%;
+    right: 1;
     padding: 10px;
     background-color: Black;
-    border-radius: 20px;
+    border-radius: 50px;
 }
   
 #git{
@@ -137,4 +135,11 @@ table{
     border: 2px solid;
     border-left: none;
     border-color: #FFD0D0;
+    color: white;
+}
+
+#rights{
+    position: absolute;
+    right: 0;
+    margin-top: auto;
 }
