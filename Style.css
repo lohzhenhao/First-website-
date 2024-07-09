@@ -85,8 +85,6 @@ a{
     height: 200px;
     min-height: calc(200px - 75px);
     flex: 1;
-    display: flex;  
-    flex-wrap: wrap;
 }
 
 .MISC{
@@ -95,6 +93,8 @@ a{
     flex: 1;
     padding: 10px;
     position: relative;
+    display: flex;  
+    flex-wrap: wrap;
 }
 
 #pfp{
