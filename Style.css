@@ -79,6 +79,8 @@ a{
 
 .TEXT{
     padding: 3%;
+    display: flex;
+    flex-wrap: auto;
 }
 
 .MEDAL{
