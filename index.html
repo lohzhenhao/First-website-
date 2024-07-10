@@ -24,7 +24,6 @@
             <button onclick="portfolio()" id="portfolio" class="MENU">Portfolio</button>
             <button onclick="project()" id="projects" class="MENU">Projects</button>
         </div>
-
         <div class="CURRENTPAGE">
             <div id="homepage" class="TEXT">
                 <img id="pfp" src="/images/PFP.png">
@@ -113,6 +112,22 @@
 
             <div id="projectpage" class="TEXT">
                 <h2>Projects</h2>
+                <h3><li><button onclick="iphone4()" id="iphone4" id="MENU" class="LINKs">iPhone 4</button></li></h3>
+                    <div id="iPhone4">
+                        test1
+                    </div>
+                <h3><li><button onclick="S7()" id="MENU" class="LINKs">Samsung S7</button></li></h3>
+                    <div id="S7">
+                        test2
+                    </div>
+                <h3><li><button onclick="website()" id="MENU" class="LINKs">Website creation</button></li></h3>
+                    <div id="website">
+                        test3
+                    </div>
+                <h3><li><button onclick="pySlides()" id="MENU" class="LINKs">Python slides</button></li></h3>
+                    <div id="pySlides">
+                        test4
+                    </div>
                 <p>Work in progress</p>
                 <p>Updates soon</p>
             </div>
@@ -210,6 +225,62 @@
                         F.style.display = "block";
             } 
             window.onload = home();
+            window.onload = blank();
+            function blank() {
+                var A = document.getElementById("iPhone4");
+                var B = document.getElementById("S7");
+                var C = document.getElementById("website");
+                var D = document.getElementById("pySlides");
+                    A.style.display = "none";
+                    B.style.display = "none";
+                    C.style.display = "none";
+                    D.style.display = "none";    
+            }
+            function iphone4() {
+                document.getElementById("iphone4").classList.toggle("show");
+                var A = document.getElementById("iPhone4");
+                var B = document.getElementById("S7");
+                var C = document.getElementById("website");
+                var D = document.getElementById("pySlides");
+                    A.style.display = "block";
+                    B.style.display = "none";
+                    C.style.display = "none";
+                    D.style.display = "none";
+            }
+            function S7() {
+                document.getElementById("S7").classList.toggle("show");
+                var A = document.getElementById("iPhone4");
+                var B = document.getElementById("S7");
+                var C = document.getElementById("website");
+                var D = document.getElementById("pySlides");
+                    A.style.display = "none";
+                    B.style.display = "block";
+                    C.style.display = "none";
+                    D.style.display = "none";
+            }
+            function website() {
+                document.getElementById("website").classList.toggle("show");
+                var A = document.getElementById("iPhone4");
+                var B = document.getElementById("S7");
+                var C = document.getElementById("website");
+                var D = document.getElementById("pySlides");
+                    A.style.display = "none";
+                    B.style.display = "none";
+                    C.style.display = "block";
+                    D.style.display = "none";
+            }
+            function pySlides() {
+                document.getElementById("pySlides").classList.toggle("show");
+                var A = document.getElementById("iPhone4");
+                var B = document.getElementById("S7");
+                var C = document.getElementById("website");
+                var D = document.getElementById("pySlides");
+                    A.style.display = "none";
+                    B.style.display = "none";
+                    C.style.display = "none";
+                    D.style.display = "block";
+            }
+
         </script>
 
         <!--github link-->
