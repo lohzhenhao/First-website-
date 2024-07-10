@@ -41,10 +41,10 @@ Body{
     flex: 1;
     border-color: #FF9EAA;
     width: 60%;
-    max-height: 93%, 200px;
+    max-height: 93%;
     min-height: 75%;
     position: absolute;
-    top: 10%;
+    top: calc(150px - 10%);
     left: 20%;
     bottom: 0;
     overflow: auto;
