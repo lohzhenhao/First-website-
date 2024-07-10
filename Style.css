@@ -41,7 +41,7 @@ Body{
     flex: 1;
     border-color: #FF9EAA;
     width: 60%;
-    max-height: 93%;
+    max-height: 93%, 200px;
     min-height: 75%;
     position: absolute;
     top: 10%;
