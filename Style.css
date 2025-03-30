@@ -1,0 +1,175 @@
+/* main info of page */
+body{
+    margin:0 ;
+    padding:0 ;
+    background-color: #333f58 ;
+    font-family: "Dosis", sans-serif ;
+    font-optical-sizing: auto ;
+    font-weight: 400 ;
+    font-style: normal ;
+    color: #f0f6f0 ;
+}
+.TEXT{
+    font-size: 1.5em;
+    padding-left: 2rem;
+}
+#header {
+    margin: 5px;
+    margin-bottom: 0;
+    grid-area: header ;
+    border: 2px solid #fbbbad ;
+    background-color: #4a7a96 ;
+}
+#headericon{
+    margin: 0%;
+    padding: 0%;
+    padding-left: 1%;
+    color: #fbbbad;
+    font-size: 20px;
+    position: absolute;
+}
+
+#main {
+    grid-area: main ;
+    border-left: 6px solid #fbbbad ;
+    overflow: scroll;
+    display: block;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar {
+    grid-area: navbar ;
+    border: none ;
+    position: relative;
+}
+
+#footer {
+    grid-area: footer ;
+    background-color: #4a7a96 ;
+    border: 2px solid #fbbbad ;
+    border-right: none ;
+    color: #f0f6f0 ;
+}
+
+.container{
+    margin:0 ;
+    padding:0 ;
+    height: 100vh ;
+    display: grid ;
+    grid-template-columns: 15% auto 5% ;
+    grid-template-rows: 15% auto 5%;
+    grid-template-areas: 
+      "header header header"
+      "navbar main ."
+      "navbar footer footer" ;
+}
+
+#rights{
+    position: absolute;
+    right: 1%;
+    bottom: 0;
+    margin-bottom: auto;
+}
+
+/* Button related */
+ul{
+    list-style-type: none ;
+    background-color: none ;
+    margin: 0 ;
+    padding: 1rem ;
+    text-align: center ;
+}
+
+button{
+    color: #f0f6f0 ;
+    background: none ;
+    color: inherit ;
+    border: none ;
+    font: inherit ;
+    cursor: pointer ;
+    outline: inherit ;
+    border-radius: 50px ;
+    margin-bottom: 1rem ;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+button:hover{
+    background-color: #ee8695;
+    color: #292831;
+}
+
+::selection {
+    background-color: #ee8695;
+    color: #292831;
+}
+/* image related */
+img {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+.MEDAL{
+    height: 200px;
+}
+
+#pfp{
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 30%;
+    background: none;
+    background-color: none;
+}
+
+.MISC{
+    padding: 10px;
+    position: relative;
+    float: right;
+    max-width: 32%;
+    min-width: 20%;
+    height: auto;
+    margin-top: 0;
+}
+
+#gitbox {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin: 0.5rem;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+  
+#git {
+    height: 40px;
+    width: 40px;
+}
+  
+/* Project page related */
+
+#projectpage {
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust minmax as needed */
+    grid-template-rows: auto;    /* 2 rows in nested grid */
+    gap: 3rem;
+}
+  
+.projitem {
+    border-radius: 20px;
+    border: 3px solid #f0f6f0;
+    background-color: #222323;
+    height: calc(1.25 * 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
